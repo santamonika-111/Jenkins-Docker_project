@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/santamonika-111/Jenkins-Docker_project.git'
+                git branch: 'main', url: 'https://github.com/santamonika-111/Jenkins-Github_project.git'
             }
         }
 
